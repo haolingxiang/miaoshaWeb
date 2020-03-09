@@ -34,7 +34,7 @@ public class UserController extends BaseController{
     private HttpServletRequest httpServletRequest;
 
     //用户登录接口
-    @RequestMapping(value = "/login",method = {RequestMethod.POST},consumes = {"application/x-www-form-urlencoded"})
+    @RequestMapping(value = "/login",method = {RequestMethod.POST},consumes = {CONTENT_TYPE_FORMED})
     @ResponseBody
     public CommonReturnType login(@RequestParam(name = "telephone")String telephone,
                                   @RequestParam(name = "password")String password) throws BusinessException, UnsupportedEncodingException, NoSuchAlgorithmException {
@@ -51,7 +51,7 @@ public class UserController extends BaseController{
     }
 
     //用户注册接口
-    @RequestMapping(value = "/register",method = {RequestMethod.POST},consumes = {"application/x-www-form-urlencoded"})
+    @RequestMapping(value = "/register",method = {RequestMethod.POST},consumes = {CONTENT_TYPE_FORMED})
     @ResponseBody
     public CommonReturnType register(@RequestParam(name = "telephone")String telephone,
                                      @RequestParam(name = "otpCode")String otpCode,
@@ -87,7 +87,7 @@ public class UserController extends BaseController{
     }
 
     //用户获取otp短信接口
-    @RequestMapping(value = "/getotp",method = {RequestMethod.POST},consumes = {"application/x-www-form-urlencoded"})
+    @RequestMapping(value = "/getotp",method = {RequestMethod.POST},consumes = {CONTENT_TYPE_FORMED})
     @ResponseBody
     public CommonReturnType getOtp(@RequestParam(name = "telephone")String telephone){
         //需要按照一定的规则生成otp验证码

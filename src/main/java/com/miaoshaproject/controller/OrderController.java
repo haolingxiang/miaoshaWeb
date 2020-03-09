@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 @Controller("order")
 @RequestMapping("/order")
 @CrossOrigin(allowCredentials = "true",allowedHeaders = "*")
-public class OrderController extends BaseController {
+public class OrderController extends BaseController{
     @Autowired
     private OrderService orderService;
 
@@ -27,7 +27,8 @@ public class OrderController extends BaseController {
     @RequestMapping(value = "/createorder",method = {RequestMethod.POST},consumes = {CONTENT_TYPE_FORMED})
     @ResponseBody
     public CommonReturnType createOrder(@RequestParam(name = "itemId") Integer itemId,
-                                        @RequestParam(name = "amount") Integer amount) throws BusinessException {
+                                        @RequestParam(name = "amount") Integer amount,
+                                        @RequestParam(name = "promoId",required = false) Integer promoId) throws BusinessException {
 
         Boolean isLogin = (Boolean) httpServletRequest.getSession().getAttribute("IS_LOGIN");
         if(isLogin==null || !isLogin){
@@ -37,7 +38,7 @@ public class OrderController extends BaseController {
         //获取用户的登录信息
         UserModel userModel= (UserModel) httpServletRequest.getSession().getAttribute("LOGIN_USER");
 
-        OrderModel orderModel = orderService.createOrder(userModel.getId(),itemId,amount);
+        OrderModel orderModel = orderService.createOrder(userModel.getId(),itemId,promoId,amount);
 
         return CommonReturnType.create(null);
     }

@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa9f7b56-7a31-4b77-b7d1-bea890c0fde7" name="Default Changelist" comment="" />
+    <list default="true" id="aa9f7b56-7a31-4b77-b7d1-bea890c0fde7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/PromoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/PromoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/viewobject/ItemVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/viewobject/ItemVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/dao/ItemDOMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/dao/ItemDOMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/dataobject/OrderDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/dataobject/OrderDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/model/ItemModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/model/ItemModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/model/OrderModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/model/OrderModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/ItemDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/ItemDOMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/OrderDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/OrderDOMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dao/ItemDOMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dao/ItemDOMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/ItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/implement/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/implement/ItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/implement/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/implement/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/ItemDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/ItemDOMapper.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +43,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -33,6 +64,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1YICGuGMqoclImWkrq9w5QwTlaG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,7 +72,9 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -155,7 +189,8 @@
       <workItem from="1583463348027" duration="7251000" />
       <workItem from="1583572846494" duration="11302000" />
       <workItem from="1583633265536" duration="21741000" />
-      <workItem from="1583718571049" duration="3223000" />
+      <workItem from="1583718571049" duration="9920000" />
+      <workItem from="1583742953913" duration="11275000" />
     </task>
     <servers />
   </component>
@@ -167,10 +202,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="67" y="46" width="1089" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1582687877492" />
-    <state x="574" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1583657550940">
+    <state x="574" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1583760829054">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1583657550940" />
+    <state x="574" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1583760829054" />
     <state x="476" y="360" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582708022363">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -179,136 +214,131 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="553" y="320" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.864@0.0.1536.864" timestamp="1582708025962" />
-    <state x="499" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583595075699">
+    <state x="499" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583757460617">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="499" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1583595075699" />
+    <state x="499" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1583757460617" />
     <state x="549" y="190" key="FileChooserDialogImpl" timestamp="1583284884201">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1583284884201" />
-    <state width="1537" height="286" key="GridCell.Tab.0.bottom" timestamp="1583725250848">
+    <state width="1537" height="286" key="GridCell.Tab.0.bottom" timestamp="1583763999853">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="286" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583725250848" />
-    <state width="1537" height="286" key="GridCell.Tab.0.center" timestamp="1583725250848">
+    <state width="1537" height="286" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583763999853" />
+    <state width="1537" height="286" key="GridCell.Tab.0.center" timestamp="1583763999853">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="286" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583725250848" />
-    <state width="1537" height="286" key="GridCell.Tab.0.left" timestamp="1583725250848">
+    <state width="1537" height="286" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583763999853" />
+    <state width="1537" height="286" key="GridCell.Tab.0.left" timestamp="1583763999853">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="286" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583725250848" />
-    <state width="1537" height="286" key="GridCell.Tab.0.right" timestamp="1583725250848">
+    <state width="1537" height="286" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583763999853" />
+    <state width="1537" height="286" key="GridCell.Tab.0.right" timestamp="1583763999853">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="286" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583725250848" />
-    <state width="1537" height="286" key="GridCell.Tab.1.bottom" timestamp="1583725250849">
+    <state width="1537" height="286" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583763999853" />
+    <state width="1537" height="286" key="GridCell.Tab.1.bottom" timestamp="1583763999853">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="286" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583725250849" />
-    <state width="1537" height="286" key="GridCell.Tab.1.center" timestamp="1583725250848">
+    <state width="1537" height="286" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583763999853" />
+    <state width="1537" height="286" key="GridCell.Tab.1.center" timestamp="1583763999853">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="286" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1583725250848" />
-    <state width="1537" height="286" key="GridCell.Tab.1.left" timestamp="1583725250848">
+    <state width="1537" height="286" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1583763999853" />
+    <state width="1537" height="286" key="GridCell.Tab.1.left" timestamp="1583763999853">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="286" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1583725250848" />
-    <state width="1537" height="286" key="GridCell.Tab.1.right" timestamp="1583725250848">
+    <state width="1537" height="286" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1583763999853" />
+    <state width="1537" height="286" key="GridCell.Tab.1.right" timestamp="1583763999853">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1537" height="286" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1583725250848" />
-    <state x="461" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1583718571270">
+    <state width="1537" height="286" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1583763999853" />
+    <state x="461" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1583742953483">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="461" y="260" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1583718571270" />
+    <state x="461" y="260" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1583742953483" />
     <state x="425" y="197" width="672" height="677" key="run.anything.popup" timestamp="1582635634094">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="425" y="197" width="672" height="677" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1582635634094" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1583638326758">
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1583762405348">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1583638326758" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1583762405348" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/ItemController.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/ItemController.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/ItemController.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/ItemServiceImpl.java</url>
-          <line>41</line>
+          <line>46</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/ItemServiceImpl.java</url>
-          <line>46</line>
+          <line>51</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/ItemServiceImpl.java</url>
-          <line>106</line>
+          <line>117</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/ItemServiceImpl.java</url>
-          <line>116</line>
+          <line>127</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/OrderController.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/OrderServiceImpl.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/OrderController.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="17" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/OrderServiceImpl.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/OrderServiceImpl.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/OrderServiceImpl.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/ItemController.java</url>
           <line>47</line>
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="29" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/ItemController.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/UserServiceImpl.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="30" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/ItemController.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/UserServiceImpl.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="31" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/OrderController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/implement/UserServiceImpl.java</url>
-          <line>88</line>
-          <option name="timeStamp" value="32" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/OrderController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/OrderController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
